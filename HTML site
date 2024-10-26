@@ -24,8 +24,8 @@
             <!-- Barre de navigation -->
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Galerie d'art</a></li>
+                    <li><a href="#about">Accueil</a></li>
+                    <li><a href="#galerie">Galerie d'art</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>

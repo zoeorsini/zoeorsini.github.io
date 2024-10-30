@@ -38,3 +38,34 @@
             </p>
         </div>
     </header>
+
+<!-- Page 2 : Section avec logo et icônes alignées -->
+    <section class="logo-icons-section">
+        <div class="logo-container">
+            <!-- Logo principal de la galerie (version plus grande) -->
+            <img src="images/logo marron.png" alt="Logo Galerie Dechewsky">
+        </div>
+
+        <div class="features">
+            <div class="feature-item">
+                <div class="icon-container">
+                    <i class="fas fa-magnifying-glass"></i>
+                </div>
+                <h3>Découverte<span class="highlighted-text1"><br> de l'art</span></h3>
+            </div>
+
+            <div class="feature-item">
+                <div class="icon-container">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Culture<span class="highlighted-text1"><br> de l'art</span></h3>
+            </div>
+
+            <div class="feature-item">
+                <div class="icon-container">
+                    <i class="fas fa-theater-masks"></i>
+                </div>
+                <h3>Diversité<span class="highlighted-text1"><br> de l'art</span></h3>
+            </div>
+        </div>
+    </section>

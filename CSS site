@@ -6,6 +6,7 @@
 }
 
 /* Style général du body avec la police et le fond */
+
 body {
     font-family: 'Playfair Display', serif;
     background-color: #f0f0f0;
@@ -13,7 +14,8 @@ body {
     line-height: 1.6;
 }
 
-/* Section Hero */  
+/* Section Hero */ 
+
 .hero-section {
     width: 100%;
     height: 100vh;
@@ -29,6 +31,7 @@ body {
 }
 
 /* Conteneur pour le logo et la navigation */
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -105,4 +108,56 @@ header{
     font-weight: 400;
     color: #FFF;
     margin-top: 40px;
+}
+
+/* Section logo et icônes */
+
+.logo-icons-section {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.highlighted-text1{
+    color: black;
+}
+
+.logo-container img {
+    width: 480px;
+    margin-bottom: 90px;
+    margin-top:10px;
+    
+    
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    color:white;
+    
+}
+
+.icon-container {
+    background-color: rgba(159, 106, 52, 0.66);
+    width: 78px;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.feature-item h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #9F6A34;
+   
 }

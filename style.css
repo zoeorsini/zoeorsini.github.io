@@ -161,3 +161,64 @@ header{
     color: #9F6A34;
    
 }
+/* Section À Propos */
+#about {
+    background: rgba(159, 106, 52, 0.43);
+    padding: 50px;
+    text-align: center;
+}
+
+#about h2{
+    font-size: 2.3rem;
+    color:white;
+    margin-top: -20px;
+    
+}
+.highlighted-text2{
+    color:#9F6A34;
+}
+
+.white-line {
+    width: 170px;
+    margin: 20px auto 40px;
+    border: 2px white solid;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.about-quote {
+    color:white;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 600px;
+    text-align: center;
+    color:white;
+    font-family: "Playfair Display";
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 50px;
+    margin-top: 35px;
+  
+}
+
+.about-image img {
+    width: 320px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 30px;
+}

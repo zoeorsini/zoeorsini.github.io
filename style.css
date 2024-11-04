@@ -411,7 +411,7 @@ header{
 }
 
 .contact-form button {
-    background-color: #9F6A34;
+    background-color: rgba(159, 106, 52, 0.72);
     color: rgb(0, 0, 0);
     border:black solid 2px;
     padding: 10px 20px;

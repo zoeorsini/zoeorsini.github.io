@@ -257,8 +257,6 @@ header{
     gap: 40px 2px;
     margin: 40px;
   
-   
-    
     
 }
 
@@ -269,8 +267,6 @@ header{
     background-size: cover;
     margin-bottom: 30px;
     margin-left: 15px;
-    
-    
    
 }
 
@@ -287,3 +283,307 @@ header{
     margin-left: 90px;
     
 }
+/* Section Contact */
+#contact {
+    background-color: rgba(159, 106, 52, 0.43);
+    padding: 90px 0;
+    text-align: center;
+    font-family: "Crimson Text";
+}
+
+.contact-title {
+    font-family: "Playfair Display", serif;
+    font-size: 2.3rem;
+    color: #FFF;
+    margin-bottom: 20px;
+    margin-top: -70px;
+       
+    
+}
+.white-line2{
+    width: 150px;
+    border: 2px #ffffff solid;
+    margin: 20px auto 40px;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.contact-details {
+    width: 45%;
+    color: white;
+    font-size: 1.3rem;
+    text-align: left;
+    
+    
+}
+
+.subscribe-message {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 500;
+    
+    
+}
+
+/* Social links */
+.socials {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    margin-left: 10px;
+    justify-content: center;
+
+}
+
+.social-icon-circle {
+    background-color: rgba(159, 106, 52, 0.66);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+}
+
+.sociallink{
+    display: flex;
+    gap:10px;
+}
+.reseau{
+    margin-top: 10px;
+}
+
+
+/* Icônes */
+.socials i {
+    font-size: 2.0rem;
+    color: #f0f0f0;
+}
+
+.white-line-vertical {
+    position: absolute;
+    left: 50%;
+    height: 460px;
+    border: #f0f0f0 solid 1px;
+}
+
+.contact-form {
+    width: 45%;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    gap: 25px;
+    justify-content: center;
+    
+}
+
+.contact-form input {
+    width: 200px;
+    padding: 10px;
+    margin-top: 5px;
+    border:black solid 2px;
+    border-radius: 50px;
+    
+}
+.contact-form input::placeholder{
+    color: black;
+    font-family: "Crimson Text";
+
+
+}
+
+.contact-form button {
+    background-color: #9F6A34;
+    color: rgb(0, 0, 0);
+    border:black solid 2px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 200px;
+    font-family: "Crimson Text";
+    box-shadow: 0px 5px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+.contact-form button:hover {
+    transform: scale(1.05);
+}
+.contact-form button:active{
+    transform: scale(0.95);
+}
+
+/* Adaptation pour petits écrans */
+@media (max-width: 768px) {
+
+    /* partie texte dans hero*/
+    .text-content{
+        margin-left: -20px;
+        margin-top: 100px;
+        
+    }
+    .hero-section{
+        height: 90vh;
+    }
+    .main-title{
+        font-size: 1.5rem;
+    }
+    .description-text{
+        font-size: 0.9rem;
+        margin-top: 60px;
+        
+    }
+    .logo-small img{
+        margin-left: -30px;
+        width: 240px;
+        height: auto;
+        margin-top: 10px;
+        max-width: 100%;  
+    }
+    .nav-links li a{
+
+        font-size: 0.9rem;
+    
+    }
+    .nav-links{
+        gap:20px;
+        max-width: 100%;
+        margin-right: -20px; 
+    }
+    
+
+    /*partie icones*/
+    .features {
+        flex-direction: column;
+        display: flex; 
+        margin-left: 120px;
+        margin-bottom: 10px;
+     
+    }
+
+    .feature-item{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    
+    }
+    .logo-container img{
+        width: 330px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    
+    /* a propos*/
+    .about-content{
+        flex-direction: column;
+        
+    }
+    .about-text{
+        max-width: 100%;
+        font-size: 1.0rem;
+        
+    }
+    .about-quote{
+        font-size: 30px;
+    }
+    .about-image img{
+        margin-left: 40px;
+    }
+
+    /*partie galerie*/
+
+    .gallery-caption{
+        
+        padding: 5px;
+        height: 50px;
+        
+    }
+    .gallery-image{
+        height: 250px;
+        
+        
+    }
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    /*partie contact*/
+    
+    .contact-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .white-line-vertical {
+        transform: rotate(90deg);
+        margin-top:-200px;
+        
+        
+    }
+    .contact-details{
+        margin-top: 60px;
+        
+    }
+    .contact-details,
+    .contact-form {
+        width: 100%;
+        text-align: center;
+        justify-content: left;
+          
+    }
+    
+    .subscribe-message{
+        margin-left: 250px;
+        font-size: 1.0rem;
+        margin-bottom: 80px;
+    }
+    .contact-form form{
+        
+        margin: 30px ; 
+        
+        margin-top: -150px;
+        
+    }
+   
+    .socials{
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .contact-form button{
+        position: absolute;
+        margin-top: 80px;
+        width: 180px;
+        margin-left: 250px;
+        
+      
+    }
+    .contact-form input{
+        margin-left: 0px;
+        width: 180px;
+  
+    }
+
+   
+}
+
+
+
+
+
